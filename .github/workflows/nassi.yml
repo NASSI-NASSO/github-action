@@ -1,11 +1,10 @@
 name: first workflow//le nom de workflow
-
 on:
   push: 
     branches: 
       -main
 jobs:
-  example-job:
+    build::
         run-on: ubuntu-latest
 
       steps:
