@@ -1,0 +1,15 @@
+name: first workflow//le nom de workflow
+
+on:
+  push: 
+    branches: 
+      -main
+jobs:
+  example-job:
+        run-on: ubuntu-latest
+
+      steps:
+        - name:print a welcome message
+       run : echo "welcome to our first github action workflow"
+       
+  
